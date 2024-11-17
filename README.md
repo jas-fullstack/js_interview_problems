@@ -21,7 +21,7 @@ A curated list of programming problems and solutions, designed to help prepare f
 | #   | Title                          | Category       | Difficulty | Solution Link            |
 |-----|--------------------------------|----------------|------------|--------------------------|
 | 1   | Find Second Largest            | Arrays         | Easy       | [View Solution](#find-second-largest)|
-| 2   | find frequency of each element | Arrays         | Easy       | [View Solution](#find-frequency-of-element)|
+| 2   | find frequency of each element | Arrays         | Easy       | [View Solution](#Find frequency of element)|
 
 ---
 
