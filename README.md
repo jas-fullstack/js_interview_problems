@@ -1,22 +1,16 @@
 # Interview Problems Collection
 
-A curated list of programming problems and solutions, designed to help prepare for technical interviews. Each problem includes a description, example inputs/outputs, and an approach to solving it.
+A curated list of programming problems and solutions, designed to help prepare for technical interviews.  
 
 ---
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Problem Format](#problem-format)
-3. [Problems List](#problems-list)
-4. [How to Contribute](#how-to-contribute)
-5. [Acknowledgments](#acknowledgments)
-
+1. [Tips and tricks](#tipsandtricks)
 ---
 
-## Introduction
+## tipsandtricks
 
-This repository contains a collection of coding problems to help with interview preparation. Problems range from basic to advanced levels, covering topics like algorithms, data structures, and system design.
-
+**Sub Array Tip:** Create two nested loops and use splice method to make all possible subarrays. 
 ---
 
 ## Problem Format
@@ -37,24 +31,30 @@ Each problem follows a consistent format:
 
 | #   | Title                          | Category       | Difficulty | Solution Link            |
 |-----|--------------------------------|----------------|------------|--------------------------|
-| 1   | Two Sum                        | Arrays         | Easy       | [View Solution](#two-sum)|
-| 2   | Merge K Sorted Lists           | Linked Lists   | Hard       | [View Solution](#merge-k-sorted-lists)|
-| 3   | Longest Substring Without Repeating Characters | Strings      | Medium     | [View Solution](#longest-substring) |
-
+| 1   | find sec Largest               | Arrays         | Easy       | [View Solution](#find-sec-largest)|
+ 
 ---
 
-## Example Problem
+## Array problem
 
-### Two Sum
+### find-sec-largest
 **Category:** Arrays  
 **Difficulty:** Easy  
 
 #### Problem Statement  
-Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to the target.  
-Assume that each input would have exactly one solution, and you may not use the same element twice.  
+Given an array find the sec largest element. 
 
 #### Example Input/Output  
 ```text
-Input: nums = [2, 7, 11, 15], target = 9  
-Output: [0, 1]
-Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+let arr = [10,29,19,80,70,32];
+arr.sort();
+let firstLargest = arr[arr.length-1];
+let secLargest = 0;
+for(i=0; i < arr.length;i++)
+{
+    if(arr[i] > secLargest &&  arr[i] != firstLargest)
+    {
+        secLargest = arr[i];
+    }
+}
+console.log(secLargest) //70
