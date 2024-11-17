@@ -48,8 +48,8 @@ for (let i = 0; i < arr.length; i++) {
 console.log(secLargest); // Output: 70
 ```
 
-## Problem 2: Find frequency of element
-
+## Problem 2:
+## Find frequency of element
 **Category:** Arrays  
 **Difficulty:** Easy  
 
