@@ -68,7 +68,7 @@ arr.map(ele=>{
     }
 });
 console.log(obj) //{ '10': 2, '11': 1, '20': 1, '23': 5 }
-
+```
 
 ## Problem 3:
 ## Move all zero to end
