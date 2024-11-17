@@ -5,25 +5,15 @@ A curated list of programming problems and solutions, designed to help prepare f
 ---
 
 ## Table of Contents
-1. [Tips and tricks](#tipsandtricks)
+1. [Tips and Tricks](#tips-and-tricks)
+2. [Problems List](#problems-list)
+3. [Array Problem](#array-problem)
+
 ---
 
-## tipsandtricks
+## Tips and Tricks
 
-**Sub Array Tip:** Create two nested loops and use splice method to make all possible subarrays. 
----
-
-## Problem Format
-
-Each problem follows a consistent format:
-
-- **Title:** A brief title of the problem.
-- **Category:** Algorithms, Data Structures, System Design, etc.
-- **Problem Statement:** A clear description of the problem.
-- **Example Input/Output:** One or more examples illustrating the problem.
-- **Solution Approach:** Explanation of the thought process behind solving the problem.
-- **Code:** The actual implementation of the solution in the chosen programming language.
-- **Complexity Analysis:** Time and space complexity of the solution.
+- **Sub Array Tip:** Create two nested loops and use the `splice` method to generate all possible subarrays.
 
 ---
 
@@ -31,30 +21,29 @@ Each problem follows a consistent format:
 
 | #   | Title                          | Category       | Difficulty | Solution Link            |
 |-----|--------------------------------|----------------|------------|--------------------------|
-| 1   | find sec Largest               | Arrays         | Easy       | [View Solution](#find-sec-largest)|
- 
+| 1   | Find Second Largest            | Arrays         | Easy       | [View Solution](#find-second-largest)|
+
 ---
 
-## Array problem
+## Array Problem
 
-### find-sec-largest
+### Find Second Largest
 **Category:** Arrays  
 **Difficulty:** Easy  
 
 #### Problem Statement  
-Given an array find the sec largest element. 
+Given an array, find the second largest element.  
 
 #### Example Input/Output  
-```text
-let arr = [10,29,19,80,70,32];
+```javascript
+let arr = [10, 29, 19, 80, 70, 32];
 arr.sort();
-let firstLargest = arr[arr.length-1];
+let firstLargest = arr[arr.length - 1];
 let secLargest = 0;
-for(i=0; i < arr.length;i++)
-{
-    if(arr[i] > secLargest &&  arr[i] != firstLargest)
-    {
+
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > secLargest && arr[i] != firstLargest) {
         secLargest = arr[i];
     }
 }
-console.log(secLargest) //70
+console.log(secLargest); // Output: 70
