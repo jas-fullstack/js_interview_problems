@@ -20,12 +20,11 @@ A curated list of programming problems and solutions, designed to help prepare f
 
 | #   | Title                          | Category       | Difficulty | Solution Link            |
 |-----|--------------------------------|----------------|------------|--------------------------|
-| 1   | Find Second Largest            | Arrays         | Easy       | [View Solution](#problem-1)|
+| 1   | Find Second Largest            | Arrays         | Easy       | [View Solution](#find-second-largest)|
 
 ---
 
-<details>
-<summary><b>Problem 1: Find Second Largest</b></summary>
+## Problem 1: Find Second Largest
 
 **Category:** Arrays  
 **Difficulty:** Easy  
