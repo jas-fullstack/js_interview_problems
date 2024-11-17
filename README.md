@@ -7,7 +7,6 @@ A curated list of programming problems and solutions, designed to help prepare f
 ## Table of Contents
 1. [Tips and Tricks](#tips-and-tricks)
 2. [Problems List](#problems-list)
-3. [Array Problem](#array-problem)
 
 ---
 
@@ -21,13 +20,13 @@ A curated list of programming problems and solutions, designed to help prepare f
 
 | #   | Title                          | Category       | Difficulty | Solution Link            |
 |-----|--------------------------------|----------------|------------|--------------------------|
-| 1   | Find Second Largest            | Arrays         | Easy       | [View Solution](#find-second-largest)|
+| 1   | Find Second Largest            | Arrays         | Easy       | [View Solution](#problem-1)|
 
 ---
 
-## Array Problem
+<details>
+<summary><b>Problem 1: Find Second Largest</b></summary>
 
-### Find Second Largest
 **Category:** Arrays  
 **Difficulty:** Easy  
 
