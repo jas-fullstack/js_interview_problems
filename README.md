@@ -21,6 +21,7 @@ A curated list of programming problems and solutions, designed to help prepare f
 | #   | Title                          | Category       | Difficulty | Solution Link            |
 |-----|--------------------------------|----------------|------------|--------------------------|
 | 1   | Find Second Largest            | Arrays         | Easy       | [View Solution](#find-second-largest)|
+| 2   | find frequency of each element | Arrays         | Easy       | [View Solution](#find-frequency-of-element)|
 
 ---
 
@@ -45,3 +46,27 @@ for (let i = 0; i < arr.length; i++) {
     }
 }
 console.log(secLargest); // Output: 70
+```
+
+## Problem 2: Find frequency of element
+
+**Category:** Arrays  
+**Difficulty:** Easy  
+
+#### Problem Statement  
+Given an array, find the frequency of each element.  
+
+#### Example Input/Output  
+```
+let arr  = [10,10,20,11,23,23,23,23,23];
+let obj = {}
+arr.map(ele=>{
+    console.log(obj[ele])
+    if(typeof obj[ele] == "undefined" ){
+        obj[ele] = 1
+    }else{
+        obj[ele]++
+    }
+});
+console.log(obj) //{ '10': 2, '11': 1, '20': 1, '23': 5 }
+
