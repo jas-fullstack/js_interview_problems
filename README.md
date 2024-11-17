@@ -61,7 +61,7 @@ Given an array, find the frequency of each element.
 let arr  = [10,10,20,11,23,23,23,23,23];
 let obj = {}
 arr.map(ele=>{
-    if(typeof obj[ele] == "undefined" m){
+    if(typeof obj[ele] == "undefined" ){
         obj[ele] = 1
     }else{
         obj[ele]++
