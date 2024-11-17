@@ -57,7 +57,7 @@ console.log(secLargest); // Output: 70
 Given an array, find the frequency of each element.  
 
 #### Example Input/Output  
-```
+```javascript
 let arr  = [10,10,20,11,23,23,23,23,23];
 let obj = {}
 arr.map(ele=>{
