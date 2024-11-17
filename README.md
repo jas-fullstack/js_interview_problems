@@ -22,7 +22,7 @@ A curated list of programming problems and solutions, designed to help prepare f
 |-----|--------------------------------|----------------|------------|--------------------------|
 | 1   | Find Second Largest            | Arrays         | Easy       | [View Solution](#find-second-largest)|
 | 2   | find frequency of each element | Arrays         | Easy       | [View Solution](#Find-frequency-of-element)|
-
+| 3   | move all zero to end           | Arrays         | Easy       | [View Solution](#Move-all-zero-to-end)|
 ---
 
 ## Problem 1: Find Second Largest
@@ -69,3 +69,33 @@ arr.map(ele=>{
 });
 console.log(obj) //{ '10': 2, '11': 1, '20': 1, '23': 5 }
 
+
+## Problem 3:
+## Move all zero to end
+**Category:** Arrays  
+**Difficulty:** Easy  
+
+#### Problem Statement  
+Given an array, move all zero to the end.  
+
+#### Example Input/Output  
+```javascript
+let arr = [0,10,0,20,50,5,0,0,8];
+let z = 0
+let nz = 0;
+let temp;
+while(arr.length > nz ){
+    if(arr[nz] !== 0 )
+    {
+        temp = arr[nz]; 
+        arr[nz] = arr[z];
+        arr[z] = temp;
+        z++
+        nz++
+    }
+    else
+    {
+      nz++
+    }
+}
+console.log(arr)
