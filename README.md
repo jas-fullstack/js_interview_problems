@@ -23,6 +23,7 @@ A curated list of programming problems and solutions, designed to help prepare f
 | 1   | Find Second Largest            | Arrays         | Easy       | [View Solution](#find-second-largest)|
 | 2   | find frequency of each element | Arrays         | Easy       | [View Solution](#Find-frequency-of-element)|
 | 3   | move all zero to end           | Arrays         | Easy       | [View Solution](#Move-all-zero-to-end)|
+| 4   | Reverse and array              | Array          | Easy       | [View Solution](#Reverse-an-array)|
 ---
 
 ## Problem 1: Find Second Largest
@@ -98,4 +99,25 @@ while(arr.length > nz ){
       nz++
     }
 }
-console.log(arr)
+console.log(arr)```
+
+```
+#### Problem Statement  
+Reverse an array
+
+#### Example Input/Output  
+```javascript
+let arr = [10,2,5,20,23,53,54];
+let low = 0;
+let high = arr.length - 1;
+
+while(low < high) {
+    let temp = arr[low]
+    arr[low] = arr[high]
+    arr[high] = temp
+    low++
+    high--
+}
+console.log("arr------->",arr)```
+
+
