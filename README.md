@@ -103,7 +103,7 @@ console.log(arr)```
 
 ```
 #### Problem Statement  
-Reverse an array
+## everse an array
 
 #### Example Input/Output  
 ```javascript
