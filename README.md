@@ -68,7 +68,17 @@ arr.map(ele=>{
         obj[ele]++
     }
 });
-console.log(obj) //{ '10': 2, '11': 1, '20': 1, '23': 5 }
+
+let maxVal = 0;
+let keyVal = 0
+for (let key in hash) {
+    
+   if(maxVal < hash[key]){
+       maxVal = hash[key]
+       keyVal = key
+   }
+}
+console.log("key Val------->",keyVal,"maxVal--------->",maxVal)
 ```
 
 ## Problem 3:
