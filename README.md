@@ -109,7 +109,9 @@ while(arr.length > nz ){
       nz++
     }
 }
-console.log(arr)```
+console.log(arr)
+
+```
 
 ```
 #### Problem Statement  
