@@ -78,9 +78,8 @@ for (let key in hash) {
        keyVal = key
    }
 }
-console.log("key Val------->",keyVal,"maxVal--------->",maxVal)
+console.log("key Val------->",keyVal,"maxVal--------->",maxVal)```
 ```
-
 ## Problem 3:
 ## Move all zero to end
 **Category:** Arrays  
@@ -112,10 +111,8 @@ while(arr.length > nz ){
 console.log(arr)
 
 ```
-
-```
 #### Problem Statement  
-## everse an array
+#### Reverse an array
 
 #### Example Input/Output  
 ```javascript
