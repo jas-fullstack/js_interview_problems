@@ -111,6 +111,7 @@ while(arr.length > nz ){
 console.log(arr)
 
 ```
+## Problem 4:
 #### Problem Statement  
 #### Reverse an array
 
