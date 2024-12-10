@@ -130,4 +130,25 @@ while(low < high) {
 }
 console.log("arr------->",arr)```
 
+```
+## Problem 5:
+#### Problem Statement  
+#### Find Sec largest element of array
+
+#### Example Input/Output  
+```let values = [10,20,30,60,50]
+let largest = 0;
+let secLargest = 0;
+for(let i = 0 ; i < values.length; i++ ){
+    if(largest < values[i]){
+        largest = values[i]
+        secLargest = largest
+    }else if(largest > values[i] ){
+        secLargest = values[i]
+    }
+    
+}
+ 
+console.log(largest,secLargest)```
+
 
