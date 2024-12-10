@@ -12,7 +12,7 @@ A curated list of programming problems and solutions, designed to help prepare f
 
 ## Tips and Tricks
 
-- **Sub Array Tip:** Create two nested loops and use the `splice` method to generate all possible subarrays.
+- **Sub Array Tip:** Create two nested loops and use the `splice` method to generate all possible subarrays. see problem 5
 
 ---
 
@@ -134,6 +134,31 @@ while(low < high) {
 }
 console.log("arr------->",arr)```
 
- `
+```
+## Problem 5:
+#### Problem Statement  
+#### to find the largest subarray in an integer array that has a sum of 0.
+
+#### Example Input/Output  
+```
+let data = [3, 4, -7, 3, 1, 3, 1, -4, -2, -2];
+
+let largestSubarray = [];   
+let maxLength = 0;   
+
+for (let i = 0; i < data.length; i++) {
+    for (let j = i + 1; j <= data.length; j++) {
+        let subarray = data.slice(i, j);
+        let sum = subarray.reduce((acc, cur) => acc + cur, 0);   
+   
+        if (sum === 0 && subarray.length > maxLength) {
+           
+            largestSubarray = subarray;
+            maxLength = subarray.length;
+        }
+    }
+}
+
+console.log("Largest Subarray with sum 0:", largestSubarray);
 
 
