@@ -24,6 +24,7 @@ A curated list of programming problems and solutions, designed to help prepare f
 | 2   | find frequency of each element | Arrays         | Easy       | [View Solution](#Find-frequency-of-element)|
 | 3   | move all zero to end           | Arrays         | Easy       | [View Solution](#Move-all-zero-to-end)|
 | 4   | Reverse and array              | Array          | Easy       | [View Solution](#Reverse-an-array)|
+| 5   | Find sec largest val           | Array          | Easy       | [View Solution](#find-sec-largest)|
 ---
 
 ## Problem 1: Find Second Largest
