@@ -161,4 +161,26 @@ for (let i = 0; i < data.length; i++) {
 
 console.log("Largest Subarray with sum 0:", largestSubarray);
 
+```
+## Problem 6:
+#### Problem Statement  
+#### Check if array is sorted or not.
+
+#### Example Input/Output  
+```
+let data = [10,10,20,10,30,50,60];
+let first = 0 
+let sec = 1;
+let isSorted = true
+for(let i = 0; i < data.length ; i++){
+    if(data[first] > data[sec]){
+        isSorted = false
+        break;
+    }
+    first++
+    sec++
+}
+console.log(isSorted)
+
+
 
