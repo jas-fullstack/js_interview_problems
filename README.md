@@ -130,7 +130,7 @@ console.log("arr------->",arr)```
 #### to find the largest subarray in an integer array that has a sum of 0.
 
 #### Example Input/Output  
-```
+```javascript
 let data = [3, 4, -7, 3, 1, 3, 1, -4, -2, -2];
 
 let largestSubarray = [];   
@@ -157,7 +157,7 @@ console.log("Largest Subarray with sum 0:", largestSubarray);
 #### Check if array is sorted or not.
 
 #### Example Input/Output  
-```
+```javascript
 let data = [10,10,20,10,30,50,60];
 let first = 0 
 let sec = 1;
@@ -179,7 +179,7 @@ console.log(isSorted)
 #### Rotate array by given number 
 
 #### Example Input/Output  
-```
+```javascript
 let data = [1,2,3,4,5];
 let rotate = 2;
 let rotatedVal = [];
