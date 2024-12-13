@@ -183,4 +183,26 @@ for(let i = 0; i < data.length ; i++){
 console.log(isSorted)
 
 
+```
+## Problem 7:
+#### Problem Statement  
+#### Rotate array by given number 
+
+#### Example Input/Output  
+```
+let data = [1,2,3,4,5];
+let rotate = 2;
+let rotatedVal = [];
+//run loop start how many values should rotate
+for(let i = rotate ; i < data.length ; i++){
+    rotatedVal.push(data[i])
+}
+//run till how mnay values need to rotate
+for(let i = 0 ; i < rotate ; i++){
+    rotatedVal.push(data[i])
+}
+console.log(rotatedVal)
+
+
+
 
