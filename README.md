@@ -15,17 +15,7 @@ A curated list of programming problems and solutions, designed to help prepare f
 - **Sub Array Tip:** Create two nested loops and use the `splice` method to generate all possible subarrays. see problem 5
 
 ---
-
-## Problems List
-
-| #   | Title                          | Category       | Difficulty | Solution Link            |
-|-----|--------------------------------|----------------|------------|--------------------------|
-| 1   | Find Second Largest            | Arrays         | Easy       | [View Solution](#find-second-largest)|
-| 2   | find frequency of each element | Arrays         | Easy       | [View Solution](#Find-frequency-of-element)|
-| 3   | move all zero to end           | Arrays         | Easy       | [View Solution](#Move-all-zero-to-end)|
-| 4   | Reverse and array              | Array          | Easy       | [View Solution](#Reverse-an-array)|
-| 5   | Find sec largest val           | Array          | Easy       | [View Solution](#find-sec-largest)|
----
+ 
 
 ## Problem 1: Find Second Largest
 
