@@ -193,6 +193,24 @@ for(let i = 0 ; i < rotate ; i++){
 }
 console.log(rotatedVal)
 
+```
+## Problem 8:
+#### Problem Statement  
+#### Find the leaders in the array 
+
+#### Example Input/Output  
+let arr = [7,10,10,4,6,5];
+let leaders = new Set();
+for(let i = 0 ; i < arr.length ; i++){
+   for(let j = i ; j < arr.length ; j++){
+      if(arr[i] > arr[j] || (arr.length - 1)  == i ){
+        leaders.add(arr[i])
+        break;
+      }
+  } 
+}
+console.log([...leaders])
+
 
 
 
