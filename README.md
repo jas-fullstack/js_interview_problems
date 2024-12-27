@@ -199,6 +199,7 @@ console.log(rotatedVal)
 #### Find the leaders in the array 
 
 #### Example Input/Output  
+```javascript
 let arr = [7,10,10,4,6,5];
 let leaders = new Set();
 for(let i = 0 ; i < arr.length ; i++){
