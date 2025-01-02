@@ -131,25 +131,21 @@ console.log("arr------->",arr)```
 
 #### Example Input/Output  
 ```javascript
-let data = [3, 4, -7, 3, 1, 3, 1, -4, -2, -2];
-
-let largestSubarray = [];   
-let maxLength = 0;   
-
-for (let i = 0; i < data.length; i++) {
-    for (let j = i + 1; j <= data.length; j++) {
-        let subarray = data.slice(i, j);
-        let sum = subarray.reduce((acc, cur) => acc + cur, 0);   
-   
-        if (sum === 0 && subarray.length > maxLength) {
-           
-            largestSubarray = subarray;
-            maxLength = subarray.length;
-        }
+let arr = [-2,-4];
+let sum = -Infinity;
+let arrVal;
+for(let i = 0 ; i < arr.length ; i++){
+    for (let j = i; j < arr.length; j++) {
+     let subArr = arr.slice(i,j+1)
+     let sumVal = subArr.reduce((pre,cur)=> pre+cur,0)
+     if( sum < sumVal ){
+        sum = sumVal
+        arrVal = subArr
+     }
+     
     }
 }
-
-console.log("Largest Subarray with sum 0:", largestSubarray);
+console.log(`Max sum val is ${sum} of sub array ${arrVal}`)
 
 ```
 ## Problem 6:
