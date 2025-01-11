@@ -18,14 +18,10 @@ A curated list of programming problems and solutions, designed to help prepare f
  
 
 ## Problem 1: Find Second Largest
-
 **Category:** Arrays  
-**Difficulty:** Easy  
-
-#### Problem Statement  
-Given an array, find the second largest element.  
-
-#### Example Input/Output  
+**Difficulty:** Easy    
+Problem Statement : Given an array, find the second largest element.  
+ 
 ```javascript
 let values = [10,20,30,60,50]
 let largest = 0;
