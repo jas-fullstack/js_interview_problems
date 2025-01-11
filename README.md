@@ -209,5 +209,28 @@ for(let i = 0 ; i < arr.length ; i++){
 console.log([...leaders])
 
 
+```
+## Problem 9:
+#### Problem Statement  
+#### Two sum problem with time complexity o(n)
+
+#### Example Input/Output  
+```javascript
+let arr = [10, 20, 35, 50,11,67];
+let target = 78;
+
+function sum(arr,target){
+    let map1 = new Map(); //to store key => values pairs..
+    for(let i = 0 ; i < arr.length ; i++){
+        let complement = target - arr[i];     //here we have to find the complement value from the array
+        if(map1.has(complement)){
+            return [map1.get(complement),i] //return if Map has complement value..
+        }
+        map1.set(arr[i],i)    //store key value pairs here..
+   }
+}
+console.log(sum(arr,target))
+
+
 
 
