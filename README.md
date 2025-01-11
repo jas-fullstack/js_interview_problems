@@ -67,15 +67,10 @@ for (let key in hash) {
 }
 console.log("key Val------->",keyVal,"maxVal--------->",maxVal)```
 ```
-## Problem 3:
-## Move all zero to end
+## Problem 3: Move all zero to end
 **Category:** Arrays  
 **Difficulty:** Easy  
-
- 
 Problem Statement : Given an array, move all zero to the end.  
-
-#### Example Input/Output  
 ```javascript
 let arr = [0,10,0,20,50,5,0,0,8];
 let z = 0
@@ -99,7 +94,6 @@ console.log(arr)
 
 ```
 ## Problem 4:Reverse an array
-#### Example Input/Output  
 ```javascript
 let arr = [10,2,5,20,23,53,54];
 let low = 0;
@@ -134,8 +128,7 @@ for(let i = 0 ; i < arr.length ; i++){
 console.log(`Max sum val is ${sum} of sub array ${arrVal}`)
 
 ```
-## Problem 6:Check if array is sorted or not.
-#### Example Input/Output  
+## Problem 6:Check if array is sorted or not.  
 ```javascript
 let data = [10,10,20,10,30,50,60];
 let first = 0 
