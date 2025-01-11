@@ -39,15 +39,12 @@ for(let i = 0 ; i < values.length; i++ ){
 console.log(largest,secLargest)
 ```
 
-## Problem 2:
-## Find frequency of element
+## Problem 2:  Find frequency of element 
 **Category:** Arrays  
 **Difficulty:** Easy  
+  
+Problem Statement : Given an array, find the frequency of each element.  
 
-#### Problem Statement  
-Given an array, find the frequency of each element.  
-
-#### Example Input/Output  
 ```javascript
 let arr  = [10,10,20,11,23,23,23,23,23];
 let obj = {}
@@ -75,8 +72,8 @@ console.log("key Val------->",keyVal,"maxVal--------->",maxVal)```
 **Category:** Arrays  
 **Difficulty:** Easy  
 
-#### Problem Statement  
-Given an array, move all zero to the end.  
+ 
+Problem Statement : Given an array, move all zero to the end.  
 
 #### Example Input/Output  
 ```javascript
@@ -101,10 +98,7 @@ while(arr.length > nz ){
 console.log(arr)
 
 ```
-## Problem 4:
-#### Problem Statement  
-#### Reverse an array
-
+## Problem 4:Reverse an array
 #### Example Input/Output  
 ```javascript
 let arr = [10,2,5,20,23,53,54];
@@ -121,11 +115,7 @@ while(low < high) {
 console.log("arr------->",arr)```
 
 ```
-## Problem 5:
-#### Problem Statement  
-#### to find the largest subarray in an integer array that has a sum of 0.
-
-#### Example Input/Output  
+## Problem 5: Find the largest subarray in an integer array that has a sum of 0.
 ```javascript
 let arr = [-2,-4];
 let sum = -Infinity;
@@ -144,10 +134,7 @@ for(let i = 0 ; i < arr.length ; i++){
 console.log(`Max sum val is ${sum} of sub array ${arrVal}`)
 
 ```
-## Problem 6:
-#### Problem Statement  
-#### Check if array is sorted or not.
-
+## Problem 6:Check if array is sorted or not.
 #### Example Input/Output  
 ```javascript
 let data = [10,10,20,10,30,50,60];
@@ -166,11 +153,8 @@ console.log(isSorted)
 
 
 ```
-## Problem 7:
-#### Problem Statement  
-#### Rotate array by given number 
+## Problem 7: Rotate array by given number 
 
-#### Example Input/Output  
 ```javascript
 let data = [1,2,3,4,5];
 let rotate = 2;
@@ -186,11 +170,7 @@ for(let i = 0 ; i < rotate ; i++){
 console.log(rotatedVal)
 
 ```
-## Problem 8:
-#### Problem Statement  
-#### Find the leaders in the array 
-
-#### Example Input/Output  
+## Problem 8: Find the leaders in the array   
 ```javascript
 let arr = [7,10,10,4,6,5];
 let leaders = new Set();
@@ -206,11 +186,8 @@ console.log([...leaders])
 
 
 ```
-## Problem 9:
-#### Problem Statement  
-#### Two sum problem with time complexity o(n)
-
-#### Example Input/Output  
+## Problem 9: Two sum problem with time complexity o(n)
+ 
 ```javascript
 let arr = [10, 20, 35, 50,11,67];
 let target = 78;
