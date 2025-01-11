@@ -196,6 +196,44 @@ function sum(arr,target){
    }
 }
 console.log(sum(arr,target))
+```
+## Problem 9: reverse Vowels O(N)
+ 
+```javascript
+
+let s = "leetcode";
+function reverseVowels(s){
+    
+    s = s.split("")
+    let left = 0;
+    let right = s.length -1;
+    while(left < right){
+     
+        if(isVowels(s[left]) && isVowels(s[right]) ){
+           let valOne = s[left];
+            s[left] = s[right];
+            s[right] = valOne
+            left++;  
+            right--
+        } 
+        else if(!isVowels(s[left])) {
+            left++
+        }else{
+            right--
+        }
+    }   
+
+    function isVowels(curEle){
+        if(curEle == 'a' || curEle == 'e' || curEle == 'i' || curEle == 'u' || curEle == 'A' || curEle               == 'E' || curEle == 'I' || curEle == 'O' || curEle == 'U'){
+            return true;
+        }
+        return false
+    }
+    return s.join("")
+}
+
+console.log("final--------->",reverseVowels(s))
+
 
 
 
