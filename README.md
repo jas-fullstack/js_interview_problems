@@ -233,6 +233,20 @@ function reverseVowels(s){
 }
 
 console.log("final--------->",reverseVowels(s))
+```
+## Problem 9: Reverse Words in a String
+ Leet code solution Link : https://leetcode.com/problems/reverse-words-in-a-string/submissions/1505952408
+```javascript
+let str = "the sky is blue";
+str = str.split(" ");
+let arr = []
+for(let i = str.length - 1; i >= 0 ; i-- ){
+    if(str[i] != ""){
+        arr.push(str[i]);
+    }
+    
+}
+console.log(arr.join(" "))
 
 
 
