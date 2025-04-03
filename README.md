@@ -197,7 +197,7 @@ function sum(arr,target){
 }
 console.log(sum(arr,target))
 ```
-## Problem 9: reverse Vowels O(N)
+## Problem 10: reverse Vowels O(N)
  
 ```javascript
 
@@ -234,7 +234,7 @@ function reverseVowels(s){
 
 console.log("final--------->",reverseVowels(s))
 ```
-## Problem 9: Reverse Words in a String
+## Problem 11: Reverse Words in a String
  Leet code solution Link : https://leetcode.com/problems/reverse-words-in-a-string/submissions/1505952408
 ```javascript
 let str = "the sky is blue";
@@ -248,7 +248,7 @@ for(let i = str.length - 1; i >= 0 ; i-- ){
 }
 console.log(arr.join(" "))
 ```
-## Problem 9: FizzBuzz Problem
+## Problem 12: FizzBuzz Problem
 Leet code solution Link : https://leetcode.com/problems/fizz-buzz/submissions/1595519069
 ```
 var fizzBuzz = function(n) {
@@ -266,4 +266,21 @@ var fizzBuzz = function(n) {
     }
     return arr
 };
+```
+## Problem 13: Number of steps to reach the 0
+```
+var numberOfSteps = function(num) {
+    let ans = num;
+    let step = 0;
+    while(ans != 0){
+        if(ans % 2 == 0){
+          ans = ans/2  
+        }else{
+            ans = ans-1
+        }
+        step++
+    }
+    return step
+};
+```
 
