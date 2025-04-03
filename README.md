@@ -250,7 +250,8 @@ console.log(arr.join(" "))
 ```
 ## Problem 9: FizzBuzz Problem
 Leet code solution Link : https://leetcode.com/problems/fizz-buzz/submissions/1595519069
-```var fizzBuzz = function(n) {
+```
+var fizzBuzz = function(n) {
     let arr = []
     for(i = 1; i <= n ; i++){
         if(i % 5 == 0 && i % 3 == 0){
